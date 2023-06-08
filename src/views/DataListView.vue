@@ -47,18 +47,27 @@ export default {
 </script>
 
 <style scoped>
+.download-box-title {
+    font-size: large;
+    font-weight: bolder;
+    justify-content: center;
+    height: 70%;
+    flex-shrink: 0;
+}
+
 .btn {
     width: 200px;
-    margin-left: 80%;
+    margin-left: 40%;
+    flex-shrink: 0;
 }
 
 .download-box {
     display: flex;
-    /* height: 60px; */
     width: 100%;
+    height: 50%;
     margin: 20px 0px 20px 0px;
-    /* border: 1px solid #000; */
     border-radius: 4px;
+    align-items: center;
 }
 
 .download-box:hover {
